@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+ }
+ 
+ img{
+   width: 800px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 10px;
+   display: flex;
+ }
+ 
+ .icons{
+   font-size: 24px;
+   color: #fff;
+ }
+ 
+ .icons ul {
+   max-width: 100%;
+   margin: 0;
+   margin-right: 2rem;
+   padding: 10px;
+   text-align: right;
+   list-style: none;
+ }
+ 
+ .icons ul li {
+   display: inline-block;
+   margin-left: 10px;
+ }
+ 
+ .icons ul li a {
+   color: #fff;
+   font-size: 25px;
+ }
+ 
+ .header-content {
+   text-align: left;
+ }
+ 
+ 
+ .image {
+   opacity: 0;
+   transform: scale(0.8);
+   animation: zoom-in 1.5s forwards;
+ }
+ 
+ @keyframes zoom-in {
+   from {
+     opacity: 0;
+     transform: scale(0.8);
+   }
+   to {
+     opacity: 1;
+     transform: scale(1);
+   }
+ }
+ 
