@@ -20,8 +20,8 @@ const projetos = [
     image: color, 
     title: 'Color-Guess', 
     description: 'Projeto 2', 
-    codeLink: 'https://github.com/Mixchelle/Projeto-Trivia', 
-    appLink: 'https://mixchelle.github.io/Projeto-Trivia/',
+    codeLink: 'https://github.com/Mixchelle/Color-Guess-Project', 
+    appLink: 'https://mixchelle.github.io/Color-Guess-Project/',
   },
   {
     id: 3, 

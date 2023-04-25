@@ -1,9 +1,16 @@
 img{
-  width: 500px;
+  width: 50%;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
   display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
 }
 
 .image {

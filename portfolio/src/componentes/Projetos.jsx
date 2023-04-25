@@ -8,11 +8,11 @@ const ProjetosList = () => {
     <div className="projetos-container">
       {projetos.map((projeto) => (
         <div className="projeto-card" key={projeto.id}>
-          <Link to={`/projects/${projeto.id}`}>
+          <Link to={`/Portifolio/projects/${projeto.id}`}>
             <img className="projeto-imagem" src={projeto.image} alt={projeto.title} />
           </Link>
           <div className="projeto-info">
-            <Link className="projeto-titulo" to={`/projects/${projeto.id}`}>{projeto.title}</Link>
+            <Link className="projeto-titulo" to={`/Portifolio/projects/${projeto.id}`}>{projeto.title}</Link>
             <div className="projeto-links">
               <a className="projeto-link" href={projeto.codeLink} target="_blank" rel="noopener noreferrer">Código</a>
               <a className="projeto-link" href={projeto.appLink} target="_blank" rel="noopener noreferrer">Aplicação</a>

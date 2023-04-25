@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/projects/:id" component={CardProjetos} />
+      <Route exact path="/Portifolio/" component={Home} />
+      <Route path="/Portifolio/projects/:id" component={CardProjetos} />
     </Switch>
   </BrowserRouter>
   );
