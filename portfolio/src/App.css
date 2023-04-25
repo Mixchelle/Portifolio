@@ -1,7 +1,10 @@
 *{
   margin: 0,
 }
-
+.fundo{
+  background-image: linear-gradient(to bottom, #161616, #141313, #000000);
+}
+body{}
 .meuProjeto{
   font-family: 'Andale Mono', monospace;
   font-size: 3em;

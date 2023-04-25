@@ -7,17 +7,18 @@
 }
 
 .projeto-card {
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 100px);
   margin-bottom: 30px;
   border-radius: 30px;
   overflow: hidden;
   border-radius: 10px;
-  border: 5px solid transparent;
-  border-image: linear-gradient(135deg, #ff6ec4, #7873f5) 1;
+  border: 10px solid transparent;
+  border-image: linear-gradient(105deg, #ff6ec4, #7873f5, #130be1) 10;
   }
+  
 
 .projeto-imagem {
-  width: 300px;
+  width: 250px;
   height: auto;
   object-fit: cover;
 }
@@ -57,3 +58,14 @@
   color: #fff;
 }
 
+a{
+  display: block;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: #6a6a6a;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}

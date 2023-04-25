@@ -1,17 +1,18 @@
 import React from 'react';
 
-function CardProjeto(props) {
-  const { image, title, description, codeLink, appLink } = props;
 
-  return (
-    <div>
-      <img src={image} alt={title} />
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <a href={codeLink} target="_blank" rel="noopener noreferrer">Link do Código</a>
-      <a href={appLink} target="_blank" rel="noopener noreferrer">Link da Aplicação</a>
-    </div>
-  );
-}
+function CardProjeto(props) {
+  const { imagem, titulo, descricao, linkCodigo, linkAplicacao } = props;
+    return (
+      <div className="card-projeto">
+        <img src={imagem} alt={titulo} />
+        <h2>{titulo}</h2>
+        <p>{descricao}</p>
+        <a href={linkCodigo} target="_blank" rel="noopener noreferrer">Link do Código</a>
+        <a href={linkAplicacao} target="_blank" rel="noopener noreferrer">Link da Aplicação</a>
+      </div>
+    );
+  }
+  
 
 export default CardProjeto;

@@ -4,7 +4,6 @@ import { FaLinkedin, FaGithub, FaWhatsapp, FaFacebook, FaInstagram } from 'react
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import imageHeader from '../images/michelle.png'
 import '../styles/Header.css'
 
 
@@ -30,7 +29,6 @@ function Header() {
            </ul>
         </div>
     </Navbar>
-   <img src={ imageHeader} alt="nome michelle"  className='image'/>
   </div>
   );
 }
