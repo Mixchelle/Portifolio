@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portifolio/static/css/main.bcb8cca3.css",
+    "main.js": "/Portifolio/static/js/main.bad9bdf1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portifolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Portifolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Portifolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Portifolio/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Portifolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/star.jpeg": "/Portifolio/static/media/star.62edd394a4e17184085e.jpeg",
+    "static/media/color.jpeg": "/Portifolio/static/media/color.17b2faab561cdfd3c185.jpeg",
+    "static/media/mimi.jpeg": "/Portifolio/static/media/mimi.9e9700440b912d61e137.jpeg",
+    "static/media/fa-regular-400.ttf": "/Portifolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Portifolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/trivia.jpeg": "/Portifolio/static/media/trivia.d5d2f5ca4d15baaec511.jpeg",
+    "static/media/fotoMichelle.jpeg": "/Portifolio/static/media/fotoMichelle.dbfaa50052c1b5554958.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/Portifolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Portifolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Portifolio/index.html",
+    "main.bcb8cca3.css.map": "/Portifolio/static/css/main.bcb8cca3.css.map",
+    "main.bad9bdf1.js.map": "/Portifolio/static/js/main.bad9bdf1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portifolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcb8cca3.css",
+    "static/js/main.bad9bdf1.js"
+  ]
+}
