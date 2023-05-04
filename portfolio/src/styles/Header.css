@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+}
+
+.icons{
+  font-size: 24px;
+  color:#333;
+}
+
+.icons ul {
+  max-width: 100%;
+  margin: 0;
+  margin-right: 2rem;
+  padding: 10px;
+  text-align: right;
+  list-style: none;
+}
+
+.icons ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icons ul li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+.header-content {
+  text-align: left;
+}
+
+
+.image {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoom-in 1.5s forwards ;
+}
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+/* Container da imagem */
+.image-container {
+  position: relative;
+  margin-top: 100px;
+  box-shadow: 0 0 10px #bd68b3, 0 0 30px #06a1b8, 0 0 30px #ff00e0,  0 0 30px #ddeb10, 0 0 30px #ffffff;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 30px;
+}
+
+/* Imagem */
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Borda */
+.image-container img::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  z-index: -1;
+  animation: border-animation 5s linear infinite;
+}
+
+/* Aplicando as classes */
+.image-container img {
+  border: none;
+}
+.image-container img:hover {
+  opacity: 0.8;
+}
+.image-container img:hover:before {
+  opacity: 1;
+  filter: blur(5px);
+}
+.image-container img:hover + .border-gradient {
+  opacity: 1;
+}
+
+/* Estilos da borda */
+.image-container .border-gradient {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}

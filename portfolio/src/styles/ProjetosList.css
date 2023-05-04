@@ -1,0 +1,117 @@
+@media only screen and (max-width: 800px) {
+  .projetos-container {
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: transparent;
+    flex-direction: column;
+  }
+  
+  .projeto-card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(105deg, #ff6ec4, #7873f5, #130be1) 10;
+    width: 100%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projeto-img {
+    width: 70%;
+    height: 70%;
+    flex-grow: 1;
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .projetos-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projeto-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(105deg, #ff6ec4, #7873f5, #130be1) 10;
+    width: 80%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+.projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right:10% ;
+  background-color: transparent;
+}
+
+.projeto-card {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 10px solid transparent;
+  border-image: linear-gradient(105deg, #ff6ec4, #7873f5, #130be1) 10;
+  width: calc(33.33% - 20px);
+  background-color: transparent;
+}
+}
+.projeto-info {
+  padding: 20px;
+}
+
+.projeto-titulo {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.projeto-links {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.projeto-link {
+  display: block;
+}
+
+a{
+  display: block;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: #939292;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.projeto-link {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #676666;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: #676666;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
