@@ -4,13 +4,3 @@
 .fundo{
   background-image: linear-gradient(to bottom, #161616, #141313, #000000);
 }
-body{}
-.meuProjeto{
-  font-family: 'Andale Mono', monospace;
-  font-size: 3em;
-  text-align: center;
-  background: linear-gradient(135deg, #ff00e7, #3d49ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
