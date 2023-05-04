@@ -24,8 +24,8 @@ function Header() {
             <li><a href="https://www.linkedin.com/in/mixchelle/" target="_blank" rel="noreferrer"><FaLinkedin /></a></li>
             <li><a href="https://github.com/Mixchelle" target="_blank" rel="noreferrer"><FaGithub /></a></li>
             <li><a href="https://wa.me/5524992494731" target="_blank" rel="noreferrer"><FaWhatsapp /></a></li>
-            <li><a href="https://www.facebook.com/miixchellw" target="_blank" rel="noreferrer"><FaFacebook /></a></li>
-            <li><a href="https://www.instagram.com/miixchelle/" target="_blank" rel="noreferrer"><FaInstagram /></a></li>
+            {/* <li><a href="https://www.facebook.com/miixchellw" target="_blank" rel="noreferrer"><FaFacebook /></a></li>
+            <li><a href="https://www.instagram.com/miixchelle/" target="_blank" rel="noreferrer"><FaInstagram /></a></li> */}
            </ul>
         </div>
     </Navbar>

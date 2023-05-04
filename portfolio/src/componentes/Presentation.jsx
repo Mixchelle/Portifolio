@@ -5,7 +5,7 @@ import '../styles/Presentation.css'
 const Presentation = () => {
   return (
     <div className="presentation">
-<img src={imgSrc} alt="Imagem de apresentação" className="presentation__img" style={{width: '17%', padding: '20px'}}/>
+<img src={imgSrc} alt="Imagem de apresentação" className="presentation__img" />
 
       <div className="presentation__text">
         <h2> Michelle Marquez</h2>
