@@ -4,3 +4,11 @@
 .fundo{
   background-image: linear-gradient(to bottom, #161616, #141313, #000000);
 }
+
+.projeto_feitos{
+  align-items: center;
+  text-align: center;
+  color: #565555;
+  font-weight: 500;
+  padding: 20px;
+}

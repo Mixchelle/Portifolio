@@ -7,6 +7,7 @@ import '../styles/ProjetosList.css';
 const ProjetosList = () => {
   return (
     <div className="projetos-container">
+      
       {projetos.map((projeto) => (
 
         <Card className="projeto-card" key={projeto.id}>

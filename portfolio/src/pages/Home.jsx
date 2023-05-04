@@ -12,6 +12,7 @@ function Home() {
       <ImageContainer />
       <Presentation />
       <div className='fundo'>
+      <h1 className='projeto_feitos'>Projetos Feitos</h1>
       <ProjetosList />
       </div>
       <Footer />
