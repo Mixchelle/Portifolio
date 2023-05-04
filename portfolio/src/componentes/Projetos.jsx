@@ -11,7 +11,7 @@ const ProjetosList = () => {
       {projetos.map((projeto) => (
 
         <Card className="projeto-card" key={projeto.id}>
-          <Link to={`/Portifolio//projects/${projeto.id}`}>
+          <Link to={`/Portifolio/projects/${projeto.id}`}>
               <Card.Img variant="top" src={projeto.image} alt={projeto.title} />
           </Link>
           <Card.Body>
